@@ -25,7 +25,11 @@
     "hubot-hipchat": "~2.5.1-4",
     "underscore": "~1.4.4",
     "soupselect": "~0.2.0",
-    "htmlparser": "~1.7.6"
+    "htmlparser": "~1.7.6",
+    "tumblrbot": "~0.1.0",
+    "date-utils": "~1.2.13",
+    "githubot": "~0.4.0",
+    "jsdom": "~0.6.5"
   },
   "engines": {
     "node": ">= 0.8.x",

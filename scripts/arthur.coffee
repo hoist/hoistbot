@@ -19,7 +19,7 @@ module.exports = (robot) ->
     token = robot.brain.get 'arthur!token!' + msg.match[1].toLowerCase()
     
     if token
-      robot.http('http://dmc.web/digitalmc/api/public/play?id=' + encodeURIComponent token).post() (err, res, body) ->
+      robot.http('http://go.arthurmp.com/api/public/play?id=' + encodeURIComponent token).post() (err, res, body) ->
         if err
           msg.reply "I tried, but something bad happened."
         else
